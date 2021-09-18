@@ -5,12 +5,20 @@
     <link>https://htlee6.github.io/publication/</link>
       <atom:link href="https://htlee6.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Sep 2021 12:48:47 +0800</lastBuildDate>
     <image>
       <url>https://htlee6.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://htlee6.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Gnn_paper</title>
+      <link>https://htlee6.github.io/publication/gnn_paper/</link>
+      <pubDate>Sat, 18 Sep 2021 12:48:47 +0800</pubDate>
+      <guid>https://htlee6.github.io/publication/gnn_paper/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An example conference paper</title>
