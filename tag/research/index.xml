@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Haotian Li</title>
-    <link>https://htlee6.github.io/project/</link>
-      <atom:link href="https://htlee6.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>Research | Haotian Li</title>
+    <link>https://htlee6.github.io/tag/research/</link>
+      <atom:link href="https://htlee6.github.io/tag/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Feb 2022 22:54:49 +0100</lastBuildDate>
     <image>
       <url>https://htlee6.github.io/media/icon_hu3f448caf1da574fe4aa378407f56bc0d_28581_512x512_fill_lanczos_center_3.png</url>
-      <title>Projects</title>
-      <link>https://htlee6.github.io/project/</link>
+      <title>Research</title>
+      <link>https://htlee6.github.io/tag/research/</link>
     </image>
     
     <item>
@@ -21,14 +21,6 @@
 &lt;h2 id=&#34;related-work--pipeline&#34;&gt;Related Work &amp;amp; Pipeline&lt;/h2&gt;
 &lt;h2 id=&#34;our-proposed-method&#34;&gt;Our Proposed Method&lt;/h2&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>awesomeBNUbEAMer</title>
-      <link>https://htlee6.github.io/project/awesomebnubeamer/</link>
-      <pubDate>Sat, 18 Sep 2021 12:55:21 +0800</pubDate>
-      <guid>https://htlee6.github.io/project/awesomebnubeamer/</guid>
-      <description></description>
     </item>
     
   </channel>
