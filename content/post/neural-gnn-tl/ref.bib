@@ -1,0 +1,57 @@
+
+@article{li_braingnn_2021,
+	title = {{BrainGNN}: {Interpretable} {Brain} {Graph} {Neural} {Network} for {fMRI} {Analysis}},
+	volume = {74},
+	issn = {1361-8415},
+	shorttitle = {{BrainGNN}},
+	url = {https://www.sciencedirect.com/science/article/pii/S1361841521002784},
+	doi = {10.1016/j.media.2021.102233},
+	abstract = {Understanding which brain regions are related to a specific neurological disorder or cognitive stimuli has been an important area of neuroimaging research. We propose BrainGNN, a graph neural network (GNN) framework to analyze functional magnetic resonance images (fMRI) and discover neurological biomarkers. Considering the special property of brain graphs, we design novel ROI-aware graph convolutional (Ra-GConv) layers that leverage the topological and functional information of fMRI. Motivated by the need for transparency in medical image analysis, our BrainGNN contains ROI-selection pooling layers (R-pool) that highlight salient ROIs (nodes in the graph), so that we can infer which ROIs are important for prediction. Furthermore, we propose regularization terms—unit loss, topK pooling (TPK) loss and group-level consistency (GLC) loss—on pooling results to encourage reasonable ROI-selection and provide flexibility to encourage either fully individual- or patterns that agree with group-level data. We apply the BrainGNN framework on two independent fMRI datasets: an Autism Spectrum Disorder (ASD) fMRI dataset and data from the Human Connectome Project (HCP) 900 Subject Release. We investigate different choices of the hyper-parameters and show that BrainGNN outperforms the alternative fMRI image analysis methods in terms of four different evaluation metrics. The obtained community clustering and salient ROI detection results show a high correspondence with the previous neuroimaging-derived evidence of biomarkers for ASD and specific task states decoded for HCP. Our code is available at https://github.com/xxlya/BrainGNN\_Pytorch},
+	language = {en},
+	urldate = {2021-11-15},
+	journal = {Medical Image Analysis},
+	author = {Li, Xiaoxiao and Zhou, Yuan and Dvornek, Nicha and Zhang, Muhan and Gao, Siyuan and Zhuang, Juntang and Scheinost, Dustin and Staib, Lawrence H. and Ventola, Pamela and Duncan, James S.},
+	month = dec,
+	year = {2021},
+	pages = {102233},
+	file = {ScienceDirect Full Text PDF:/Users/htlee/Zotero/storage/7QF6XPH3/Li et al. - 2021 - BrainGNN Interpretable Brain Graph Neural Network.pdf:application/pdf},
+}
+
+@article{zhang_functional_2021,
+	title = {Functional annotation of human cognitive states using deep graph convolution},
+	volume = {231},
+	issn = {1053-8119},
+	url = {https://www.sciencedirect.com/science/article/pii/S1053811921001245},
+	doi = {10.1016/j.neuroimage.2021.117847},
+	abstract = {A key goal in neuroscience is to understand brain mechanisms of cognitive functions. An emerging approach is “brain decoding”, which consists of inferring a set of experimental conditions performed by a participant, using pattern classification of brain activity. Few works so far have attempted to train a brain decoding model that would generalize across many different cognitive tasks drawn from multiple cognitive domains. To tackle this problem, we proposed a multidomain brain decoder that automatically learns the spatiotemporal dynamics of brain response within a short time window using a deep learning approach. We evaluated the decoding model on a large population of 1200 participants, under 21 different experimental conditions spanning six different cognitive domains, acquired from the Human Connectome Project task-fMRI database. Using a 10s window of fMRI response, the 21 cognitive states were identified with a test accuracy of 90\% (chance level 4.8\%). Performance remained good when using a 6s window (82\%). It was even feasible to decode cognitive states from a single fMRI volume (720ms), with the performance following the shape of the hemodynamic response. Moreover, a saliency map analysis demonstrated that the high decoding performance was driven by the response of biologically meaningful brain regions. Together, we provide an automated tool to annotate human brain activity with fine temporal resolution and fine cognitive granularity. Our model shows potential applications as a reference model for domain adaptation, possibly making contributions in a variety of domains, including neurological and psychiatric disorders.},
+	language = {en},
+	urldate = {2021-11-15},
+	journal = {NeuroImage},
+	author = {Zhang, Yu and Tetrel, Loïc and Thirion, Bertrand and Bellec, Pierre},
+	month = may,
+	year = {2021},
+	keywords = {cognitive},
+	pages = {117847},
+	file = {ScienceDirect Full Text PDF:/Users/htlee/Zotero/storage/2KV5WBM9/Zhang et al. - 2021 - Functional annotation of human cognitive states us.pdf:application/pdf},
+}
+
+@techreport{zhang_transferability_2020,
+	title = {Transferability of {Brain} decoding using {Graph} {Convolutional} {Networks}},
+	copyright = {© 2020, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution-NonCommercial-NoDerivs 4.0 International), CC BY-NC-ND 4.0, as described at http://creativecommons.org/licenses/by-nc-nd/4.0/},
+	url = {https://www.biorxiv.org/content/10.1101/2020.06.21.163964v1},
+	abstract = {Transfer learning has been a very active research topic in natural image processing. But few studies have reported notable benefits of transfer learning on medical imaging. In this study, we sought to investigate the transferability of deep artificial neural networks (DNN) in brain decoding, i.e. inferring brain state using fMRI brain response over a short window. Instead of using pretrained models from ImageNet, we trained our base model on a large-scale neuroimaging dataset using graph convolutional networks (GCN). The transferability of learned graph representations were evaluated under different circumstances, including knowledge transfer across cognitive domains, between different groups of subjects, and among different sites using distinct scanning sequences. We observed a significant performance boost via transfer learning either from the same cognitive domain or from other task domains. But the transferability was highly impacted by the scanner site effect. Specifically, for datasets acquired from the same site using the same scanning sequences, using transferred features highly improved the decoding performance. By contrast, the transferability of representations highly decreased between different sites, with the performance boost reducing from 20\% down to 7\% for the Motor task and decreasing from 15\% to 5\% for Working-memory tasks. Our results indicate that in contrast to natural images, the scanning condition, instead of task domain, has a larger impact on feature transfer for medical imaging. With other advanced tools such as layer-wise fine-tuning, the decoding performance can be further improved through learning more site-specific high-level features while retaining the transferred low-level representations of brain dynamics.},
+	language = {en},
+	urldate = {2021-11-22},
+	author = {Zhang, Yu and Bellec, Pierre},
+	month = jun,
+	year = {2020},
+	doi = {10.1101/2020.06.21.163964},
+	note = {Company: Cold Spring Harbor Laboratory
+Distributor: Cold Spring Harbor Laboratory
+Label: Cold Spring Harbor Laboratory
+Section: New Results
+Type: article},
+	keywords = {transfer learning, brain decoding},
+	pages = {2020.06.21.163964},
+	file = {Full Text PDF:/Users/htlee/Zotero/storage/EQD43Z9Z/Zhang and Bellec - 2020 - Transferability of Brain decoding using Graph Conv.pdf:application/pdf},
+}
