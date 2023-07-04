@@ -18,8 +18,8 @@ bio:
 
 # Interests to show in About widget
 interests:
-- ML & DL
-- Graph & Network
+- Machine learning & deep learning
+- Graph & network
 - ...
 
 # Education to show in About widget
@@ -61,6 +61,9 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0002-2589-0543
+- icon: cv
+  icon_pack: ai
+  link: uploads/cv.pdf
 # - icon: xing
 #   icon_pack: fab
 #   link: https://www.xing.com/profile/HauTen_Lee
@@ -80,11 +83,9 @@ highlight_name: true
 ---
  My name 李昊天 is interpreted as Haotian Li in English where 李(lǐ) is my family name and 昊(hào)天(tiān) is my given name.
 
- At the moment I am a graduate student in System Science at Beijing Normal University and a member of [BrainAIR](http://www.brainair.cn) Lab, advised by [Prof. Bailu Si](https://sss.bnu.edu.cn/tabid/143/ArticleID/462/frtid/144/Default.aspx). Just finished my exchange year at Ludwig-Maximillians-Universität München (University of Munich), majoring Computer Science. I obtained my bachelor's degree of engineering from Beijing University of Posts and Telecommunications.
+ I will join the [Algorithmic Data Analysis Group](https://www.uu.nl/en/research/ai-data-science/algorithmic-data-analysis) at Utrecht University as a PhD student this fall.
+ I am interested in machine learning and deep learning, especially in graph and network analysis and motivated to convert machine learning techniques to real-world applications.
+ Received my M.Sc from Beijing Normal University and B.Eng from Beijing University of Posts and Telecommunications.
+ Spent 1 year studying at Ludwig-Maximillians-Universität München as an exchange student, Munich is a great place to live.
 
-<!-- {{< icon name="bell" pack="fas" >}} I am <b>looking for related Ph.D positions</b> starting from approx. July 2023. Please feel free to contact me if you have something to offer 😁 -->
-
-<!--My Asian name 李昊天, where 李(Lee) is my family name, and 昊(Hau) 天(Ten), two individual characters as a whole, is my given name, is sometimes interpreted as 'Haotian Li' as well.
-FC Barcelona RULES! -->
-
-{{< icon name="bell" pack="fas" >}} Check my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}} here.
+ Feel free to connect and reach out! 😄
